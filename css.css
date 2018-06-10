@@ -1,0 +1,33 @@
+.fade{
+    width:200px;
+    height: 200px;
+    background: red;
+  
+}
+
+.fade.fadeInOut {
+    width:200px;
+    height: 200px;
+    background: red;
+    opacity:0;
+}
+
+/* .elementToFadeInAndOut {
+    animation: fadeInOut 4s linear forwards;
+}
+
+@keyframes fadeInOut {
+ 0% { opacity:0; }
+ 50% { opacity:1; } 
+ 100% { opacity:0; } 
+} */
+
+.elementToFadeIn {
+    animation: fadeIn 4s linear forwards;
+}
+
+@keyframes fadeIn {
+ 0% { opacity:0; }
+ 50% { opacity:1; } 
+
+}
